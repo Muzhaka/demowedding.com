@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arra Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- simply countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootsrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+    <!-- Cover Wedding -->
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+          <!-- Audio -->
+          <audio id="myaudio" controls hidden autoplay loop>
+            <source src="audio/PayungTeduh - Akad.mp3" type="audio/mp3">
+            <p>Audio tidak disupport browser</p>
+          </audio>          
+
+      <main>
+        <h4>Kepada Bapak/Ibu/Saudara/i</h4>
+        <h1>Arif & Hera</h1>
+        <p>Akan melangsungkan pernikahan pada:</p>
+        <div class="simply-countdown"></div>
+        <br />
+        <a href="#home" class="btn btn-lg">Lihat undangan</a>
+      </main>
+    </section>
+
+    <!-- navbar offcanvas -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Arra Wedding</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Arra Wedding</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link rounded" href="#home">home</a>
+                <a class="nav-link rounded" href="#info">info</a>
+                <a class="nav-link rounded" href="#map">Map</a>
+                <a class="nav-link rounded" href="#gallery">Gallery</a>
+                <a class="nav-link rounded" href="#gift">Gift</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 13 Agustus di Pemalang, Jawa Tengah</h3>
+            <p>Oleh sebab itu, dengan segala hormat, kami bermaksud untuk mengundang bapak/ibu/saudara/i untuk hadir pada acara kami</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Arif Nur Husain</h3>
+                <p>penampilan fisik hanyalah fatamorgana yang lenyap seiring bertambahnya usia</p>
+              </div>
+              <div class="col-4">
+                <img src="img/arif.JPG" alt="Arif" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/hera.jpg" alt="Hera" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Dwi Hera Octavia</h3>
+                <p>Menjadi seorang teman adalah pekerjaan mudah, akan tetapi teman hidup adalah buah yang lama berbuah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat"> Acara akad dan resepsi kami <br> akan diselenggarakan di waktu dan tempat yang sama pada:</p>
+          </div> 
+          <br> 
+          <br>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-4">
+              <div class="card-header">
+                Akad Nikah
+              </div>
+              <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock-history d-block"></i>
+                  <span>09-00 - 10.00</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar-heart d-block"></i>
+                  <span>Sabtu 13 Agustus 2023</span>
+                </div>
+              </div>
+              </div>
+              <div class="card-footer">
+                Saat prosesi akad berlangsung diharapkan untuk tetap kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-4 ">
+              <div class="card-header">
+                resepsi
+              </div>
+              <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock-history d-block"></i>
+                  <span>13-00 - 16.00</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar-heart d-block"></i>
+                  <span>Sabtu 13 Agustus 2023</span>
+                </div>
+              </div>
+              </div>
+              <div class="card-footer">
+                Saat acara resepsi berlangsung diharapkan untuk tetap kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Map -->
+    <section id="map" class="map">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Map</h2>
+            <p class="alamat">Gedung PGRI. <br> Jalan Dokter Cipto Mangunkusumo 52361 Pemalang Jawa Tengah</p>
+            <p class="description">Diharapkan untuk tidak salah tanggal dan alamat. Apabila anda sampai di tujuan namun tidak ada tanda-tanda dilangsungkannya pernikahan bisa jadi anda salah tanggal atau salah alamat</p>
+          </div>
+        </div>
+      <div class="row justify-content-center mt-4">
+      <div class="col-md-5 col-10 text-center">
+        <a href="https://www.bing.com/maps?&ty=18&ss=ypid.YN7999x12218402921779235516&mb=-6.89091~109.378584~-6.915885~109.398965&description=39WQ%2BJGM%2C%20Jalan%20Dokter%20Cipto%20Mangunkusumo%2052361%20Pemalang%20Jawa%20Tengah&usebfpr=true&cardbg=%2388979C&dt=1690966800000&tt=Gedung%20PGRI&tsts0=%2526ty%253D18%2526ss%253Dypid.YN7999x12218402921779235516%2526mb%253D-6.89091~109.378584~-6.915885~109.398965%2526description%253D39WQ%25252BJGM%25252C%252520Jalan%252520Dokter%252520Cipto%252520Mangunkusumo%25252052361%252520Pemalang%252520Jawa%252520Tengah%2526usebfpr%253Dtrue%2526cardbg%253D%25252388979C&dt=1690966800000&tstt0=Gedung%20PGRI&cp=-6.905575~109.378357&lvl=15.924654&pi=0&ftst=0&ftics=False&v=2&sV=2&form=S00027" class="btn btn-primary btn-light my-3" target="_blank">
+          <i class="bi bi-geo-alt-fill"></i>
+          Klik menuju lokasi
+        </a>
+        <br>
+        <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Arif+dan+Hera&dates=20230813/20230813&details=Kami+mengundang+Anda+untuk+menghadiri+pernikahan+kami+yang+akan+dilaksanakan+pada+tanggal+13+Agustus+2023+di+Gedung+PGRI+Kabupaten+Pemalang.+Kami+berharap+Anda+dapat+hadir+dan+memberikan+doa+serta+dukungan+Anda+kepada+kami.&location=Gedung+PGRI+Kabupaten+Pemalang,+Jl.+Raya+Pemalang+No.+1,+Pemalang&sf=true&output=xml" class="btn btn-primary btn-light my-3 mb-4 w-auto" target="_blank">
+          <i class="bi bi-calendar-plus-fill"></i>
+          klik simpan di kalender
+        </a>  
+      </div>
+      <div class="col-md-5 col-10 text-center">
+        <iframe class="peta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.2230945662644!2d109.38889600449737!3d-6.903471873716437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fdb2f4a0daed9%3A0xf128e6bb7ba736f5!2sGedung%20PGRI!5e0!3m2!1sid!2sid!4v1690969237438!5m2!1sid!2sid" class="maps" width="410" height="210" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-1">Gedung PGRI</iframe>
+      </div>
+    </section>
+
+      <!-- Gallery -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Kenangan kami</span>
+            <h2>Galery foto</h2>
+            <p>Galeri ini adalah bukti dari perjalanan cinta kami yang panjang dan indah. Kami ingin berbagi kebahagiaan kami kepada dunia melalui galeri ini. Kami berharap foto-foto kemesraan kami bisa menginspirasi dan menyentuh hati Anda semua.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-2 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/dating-couple.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="img/gallery/tumbnail/dating-couple.jpg" alt="dating-couple" class="img-fluid w-100  rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/ride-couple.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="img/gallery/tumbnail/ride-couple.jpg" alt="dating-couple" class="img-fluid w-100  rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/dating-couple-2.png" data-toggle="lightbox" data-gallery="example-gallery">
+              <img src="img/gallery/tumbnail/dating-couple-2.png" alt="dating-couple" class="img-fluid w-100  rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gift -->
+    <section id="gift" class="gift">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <h2>Wedding Gift</h2>
+              <p>Bagi Bapak/Ibu/Saudara/i yang ingin mengirimkan hadiah, silakan mengirimkannya melalui tautan berikut:</p>
+            </div>
+          </div>
+        <div class="row justify-content-center mt-4">
+        <div class="col-md-5 col-10 text-center">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#giftModal"><i class="fa fa-gift"></i> Kirim Hadiah</button>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#moneyModal"><i class="fa fa-wallet"></i> Transfer Uang</button>
+        </div>
+        
+    <!-- Modal untuk kirim hadiah -->
+    <div class="modal fade" id="giftModal" tabindex="-1" aria-labelledby="giftModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="giftModalLabel">Kirim Hadiah</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p>Terima kasih atas perhatian dan doanya untuk kami.</p>
+            <p>Anda bisa mengirimkan hadiah ke alamat berikut:</p>
+            <p class="alamat-rumah">Arif Nur Husain-087849800753 <br> Jl.abiyasa NO.09 Taman 1, Taman, Kec. Taman, Kabupaten Pemalang, Jawa Tengah 52361</p>
+            <button type="button" class="btn btn-secondary" onclick="copyAddress()">Salin Alamat</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal untuk transfer uang -->
+<div class="modal fade" id="moneyModal" tabindex="-1" aria-labelledby="moneyModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="moneyModalLabel">Transfer Uang</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body justify-content-center text-center">
+        <p>Terima kasih atas perhatian dan doanya untuk kami.</p>
+        <p>Anda bisa transfer uang melalui OVO atau DANA ke qrcode berikut:</p>
+        <select class="form-select" id="payment">
+          <option value="ovo">OVO</option>
+          <option value="dana">DANA</option>
+        </select>
+        <img id="qris-ovo" class="qris-ovo my-3 text-center" src="img/qris-ovo.png" alt="QRIS OVO">
+        <img id="qris-dana" class="qris-dana my-3" src="img/qris-dana.png" alt="QRIS DANA">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </section>
+
+<!-- Button scroll up -->
+<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary position-fixed bottom-0 end-0 m-3 animate__animated animate__pulse btn-light">↑
+</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2023, // required
+        month: 8, // required
+        day: 13, // required
+        hours: 9, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js">
+    </script>
+
+    <script>
+      const hamburger = document.querySelector('.navbar-toggler');
+      const stickytop = document.querySelector('.sticky-top');
+
+      hamburger.addEventListener('click', function(){
+        stickytop.style.overflow = 'visible'
+      }) 
+
+        const offcanvas = document.querySelector('.offcanvas');
+        offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+          stickytop.style.overflow = 'hidden'
+      })
+      
+      // dapatkan elemen-elemen link anchor
+var navLinks = document.querySelectorAll(".nav-link");
+// dapatkan elemen offcanvas menu
+var offcanvasMenu = document.getElementById("offcanvasNavbar");
+// buat instance offcanvas menu
+var bsOffcanvas = new bootstrap.Offcanvas(offcanvasMenu);
+// tambahkan event listener click pada setiap link anchor
+navLinks.forEach(function (elem) {
+  elem.addEventListener("click", function () {
+    // tutup offcanvas menu dengan metode hide()
+    bsOffcanvas.hide();
+  });
+});
+    </script>
+
+<!-- Sertakan jQuery agar event click dan hide.bs.offcanvas tidak bentrok dan menghentikan event scroll -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Sertakan plugin ScrollTo -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // tutup offcanvas menu ketika klik link anchor
+    $(".nav-link").on("click", function () {
+      $(".offcanvas").offcanvas("hide");
+    });
+    // scroll ke posisi anchor dengan plugin ScrollTo
+    $(".nav-link").on("click", function (event) {
+      event.preventDefault();
+      var target = $(this).attr("href");
+      $.scrollTo(target, 500, { offset: 0 });
+    });
+  });
+</script>
+
+<!-- Modal -->
+<script>
+  function copyAddress() {
+  // dapatkan elemen yang berisi alamat
+  var address = document.querySelector("#giftModal p:nth-child(3)");
+  // buat elemen textarea sementara
+  var textarea = document.createElement("textarea");
+  // masukkan alamat ke textarea
+  textarea.value = address.textContent;
+  // tambahkan textarea ke body
+  document.body.appendChild(textarea);
+  // pilih isi textarea
+  textarea.select();
+  // salin isi textarea ke clipboard
+  document.execCommand("copy");
+  // hapus textarea dari body
+  document.body.removeChild(textarea);
+  // tampilkan pesan berhasil menyalin
+  alert("Alamat berhasil disalin!");
+}
+// dapatkan elemen select
+var select = document.querySelector("#payment");
+// dapatkan elemen-elemen img qris
+var qrisOvo = document.querySelector("#qris-ovo");
+var qrisDana = document.querySelector("#qris-dana");
+// tambahkan event listener change pada select
+select.addEventListener("change", function () {
+  // dapatkan nilai dari opsi select yang dipilih
+  var value = this.value;
+  // ubah display dari img qris sesuai dengan nilai
+  if (value === "ovo") {
+    // tampilkan gambar qris-ovo
+    qrisOvo.style.setProperty("display", "block");
+    // sembunyikan gambar qris-dana
+    qrisDana.style.setProperty("display", "none");
+  } else if (value === "dana") {
+    // tampilkan gambar qris-dana
+    qrisDana.style.setProperty("display", "block");
+    // sembunyikan gambar qris-ovo
+    qrisOvo.style.setProperty("display", "none");
+  }
+});
+</script>
+
+<script>
+  var mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+</script>
+
+<!-- audio -->
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.addEventListener("canplaythrough", function() {
+  audio.play().catch(function(e) {
+    window.addEventListener("click", function() {
+      audio.play();
+    }, { once: false });
+  });
+});
+
+  audio.volume = 0.25;
+</script>
+
+  </body>
+</html>
+
+
+<!-- Akad jam 9-10, resepsi jam 13.00-16.00 -->
